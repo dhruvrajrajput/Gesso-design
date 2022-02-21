@@ -1,0 +1,102 @@
+/* main logo  */
+
+.main-logo {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  display: grid;
+  align-items: center;
+  line-height: 54px;
+}
+/* main logo width & height */
+
+.main-logo-w-h {
+  width: 180px;
+  height: 38px;
+}
+
+/* main logo btn */
+
+.btn-success {
+  background-color: #6f9a37;
+  border: 1px solid #6f9a37;
+}
+.btn-success:hover {
+  background-color: #6f9a37bd;
+  border: 1px solid #6f9a37bd;
+}
+
+/* display flex end btn-success */
+
+.display-end {
+  display: flex;
+  justify-content: end;
+}
+
+/* full layout border */
+
+.border-1 {
+  border: 1px solid #000000;
+  padding: 14px 16px;
+}
+
+/* background-1 color White */
+
+.background-1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* margin-left icon 15px */
+
+.margin-left {
+  margin-left: 15px;
+}
+
+/* logo font-size And font-size-2 */
+.font-size {
+  font-size: 3em;
+}
+.font-size-2 {
+  font-size: 10em;
+}
+
+/* image width 80% margin-left And Right */
+.image-right {
+  width: 80%;
+  margin-top: 64px;
+  margin-left: 120px;
+}
+
+/* image width And height */
+
+.image-1 {
+  width: 438px;
+  height: 554px;
+}
+
+/* display flex */
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Display Center */
+
+.display-center {
+  display: flex;
+  justify-content: center;
+}
+
+/* btn-outline-dark */
+
+.btn-outline-dark {
+  padding: 10px 50px;
+}
+
+/* image-2 */
+
+.image-2 {
+  width: 250px;
+  height: 250px;
+}
