@@ -37,6 +37,8 @@
 .border-1 {
   border: 1px solid #000000;
   padding: 14px 16px;
+  border-left: none;
+  margin-bottom: -1px !important;
 }
 
 /* background-1 color White */
@@ -97,6 +99,103 @@
 /* image-2 */
 
 .image-2 {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 180px;
+}
+
+/* display grid */
+
+.display-grid {
+  display: grid;
+  align-items: center;
+}
+
+/* link */
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+.link:hover {
+  color: #000000ad;
+  text-decoration: underline;
+}
+.link-2:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* text none */
+
+.text-decoration {
+  text-decoration: none;
+}
+.text-decoration:hover {
+  text-decoration: none;
+}
+
+/* list */
+
+.list {
+  list-style-type: none;
+}
+
+/* Go to Top */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+}
+
+/* Media-Btn Hover */
+
+.media-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.media-btn:hover h4 {
+  color: #ffffff;
+}
+.media-btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+.media-btn h4 {
+  color: #000000;
+}
+
+/* Media Screen */
+
+@media screen and (max-width: 1024px) {
+  .flex-direction {
+    flex-direction: column;
+  }
+
+  .font-size-2 {
+    font-size: 4em;
+  }
+  .image-right {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .videos {
+    width: 450px;
+    height: 350px;
+  }
+  .display-end {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
